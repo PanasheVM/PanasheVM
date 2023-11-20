@@ -22,7 +22,7 @@ public class ConnectToServer {
     }
     public void startMonitoring() {
         try {
-            JSch jsch = new JSch();
+/*            JSch jsch = new JSch();
             Session session = jsch.getSession(user, host, port);
             session.setPassword(password);
             // It is recommended to use a known hosts file
@@ -41,7 +41,9 @@ public class ConnectToServer {
 
                 // Adjust the sleep duration based on your needs.
                 Thread.sleep(5000);
-            }
+            }*/
+
+            System.out.println("Test");
         } catch (Exception e) {
             e.printStackTrace();
         }
