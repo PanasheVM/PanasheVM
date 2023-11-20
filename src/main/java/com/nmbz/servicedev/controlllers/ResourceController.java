@@ -10,7 +10,7 @@ public class ResourceController {
         return "Account Operations";
     }
 
-    @GetMapping("/accountfreeze/")
+    @GetMapping("/extracts/")
     public String accountFreeze() {
         return "Account Freeze";
     }
